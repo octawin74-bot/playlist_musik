@@ -12,6 +12,7 @@ permissions:
 
 jobs:
   build:
+    name: Build Android APK
     runs-on: ubuntu-latest
 
     steps:
@@ -28,6 +29,10 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: stable
+          cache: true
+
+      - name: Create Android Platform
+        run: flutter create --platforms=android .
 
       - name: Install Dependencies
         run: flutter pub get
@@ -40,3 +45,4 @@ jobs:
         with:
           name: playlist-musik-apk
           path: build/app/outputs/flutter-apk/app-release.apk
+          if-no-files-found: error
