@@ -1,0 +1,38 @@
+
+[
+  {
+    "id": 1,
+    "judul": "Hati-Hati di Jalan",
+    "artis": "Tulus",
+    "durasiDetik": 242,
+    "album": "Manusia"
+  },
+  {
+    "id": 2,
+    "judul": "Evaluasi",
+    "artis": "Hindia",
+    "durasiDetik": 195,
+    "album": "Menari dengan Bayangan"
+  },
+  {
+    "id": 3,
+    "judul": "Sempurna",
+    "artis": "Andra and The Backbone",
+    "durasiDetik": 240,
+    "album": "Andra and The Backbone"
+  },
+  {
+    "id": 4,
+    "judul": "Komang",
+    "artis": "Raim Laode",
+    "durasiDetik": 210,
+    "album": "Komang"
+  },
+  {
+    "id": 5,
+    "judul": "Bertaut",
+    "artis": "Nadin Amizah",
+    "durasiDetik": 218,
+    "album": "Selamat Ulang Tahun"
+  }
+]
